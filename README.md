@@ -77,14 +77,31 @@ Melt value is the worth of the pure metal inside an item: weight, times purity, 
 
 ## Run your own copy
 
-The server is a single Cloudflare Worker with no dependencies.
+The server has no dependencies. Pick whichever way suits you.
+
+**Local, over stdio** (Node 18 or newer):
 
 ```
-npm install -g wrangler
-wrangler deploy
+git clone https://github.com/darthanalyst/meltvalue-mcp
+node meltvalue-mcp/server.mjs
 ```
 
-Edit the routes in `wrangler.toml` first so they point at your own domain. Prices come from the public MeltValue API at `https://meltvalue.com/api/v1/spot`.
+**Local, over HTTP** at `http://localhost:8787/mcp`:
+
+```
+node meltvalue-mcp/server.mjs --http
+```
+
+**Docker:**
+
+```
+docker build -t meltvalue-mcp .
+docker run -i --rm meltvalue-mcp
+```
+
+**Cloudflare Workers:** edit the routes in `wrangler.toml` so they point at your own domain, then run `wrangler deploy`.
+
+Prices come from the public MeltValue API at `https://meltvalue.com/api/v1/spot`.
 
 ## Protocol support
 

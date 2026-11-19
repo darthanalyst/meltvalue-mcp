@@ -1,0 +1,12 @@
+{
+  "name": "meltvalue-mcp",
+  "version": "1.0.1",
+  "description": "MCP server for MeltValue.com: live gold, silver, platinum and palladium spot prices, plus melt value math for scrap and US coins.",
+  "type": "module",
+  "bin": { "meltvalue-mcp": "server.mjs" },
+  "scripts": { "start": "node server.mjs", "start:http": "node server.mjs --http" },
+  "homepage": "https://meltvalue.com/",
+  "repository": { "type": "git", "url": "git+https://github.com/darthanalyst/meltvalue-mcp.git" },
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
