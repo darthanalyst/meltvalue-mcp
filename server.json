@@ -1,0 +1,11 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.meltvalue/meltvalue",
+  "title": "MeltValue",
+  "description": "Live gold, silver, platinum and palladium spot prices plus melt value math for scrap and US coins.",
+  "version": "1.0.0",
+  "websiteUrl": "https://meltvalue.com/",
+  "remotes": [
+    { "type": "streamable-http", "url": "https://meltvalue.com/mcp" }
+  ]
+}
