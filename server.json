@@ -3,9 +3,16 @@
   "name": "com.meltvalue/meltvalue",
   "title": "MeltValue",
   "description": "Live gold, silver, platinum and palladium spot prices plus melt value math for scrap and US coins.",
-  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/darthanalyst/meltvalue-mcp",
+    "source": "github"
+  },
+  "version": "1.0.1",
   "websiteUrl": "https://meltvalue.com/",
   "remotes": [
-    { "type": "streamable-http", "url": "https://meltvalue.com/mcp" }
+    {
+      "type": "streamable-http",
+      "url": "https://meltvalue.com/mcp"
+    }
   ]
 }
