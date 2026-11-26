@@ -71,6 +71,12 @@ For a client that only speaks stdio, bridge with `mcp-remote`:
 - How much silver is in 40 Washington quarters dated 1964 or earlier, and what is it worth?
 - Which is worth more in metal today, a Morgan dollar or a Peace dollar?
 
+## Worked example: a roll of silver quarters
+
+A roll of 40 circulated Washington quarters dated 1932–1964 has $10 in face value. To estimate the silver in the roll, dealers commonly allow 0.715 troy ounces per $1 of face value for wear. That gives **7.15 troy ounces of silver** (40 × $0.25 × 0.715).
+
+At an **example** silver price of $30 per troy ounce, the metal would be worth **$214.50** (7.15 × $30). For a current estimate, ask the assistant for the silver spot price and multiply by 7.15, or enter $10 face value in the [MeltValue junk silver calculator](https://meltvalue.com/junk-silver-calculator). This is a metal estimate, not a dealer offer or a collector appraisal.
+
 ## How melt value works
 
 Melt value is the worth of the pure metal inside an item: weight, times purity, times the spot price. It ignores collector premiums and dealer fees, so a buyer will pay less than melt and a rare coin can sell for far more. The [MeltValue calculators](https://meltvalue.com/) walk through the math for jewelry, coins and scrap.
